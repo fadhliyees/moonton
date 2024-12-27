@@ -34,13 +34,6 @@ export default function Register() {
                                         forInput="fullname"
                                         value="Fullname"
                                     />
-                                    {/* <input
-                                    type="text"
-                                    name="fullname"
-                                    className="rounded-2xl bg-form-bg py-[13px] px-7 w-full focus:outline-alerange focus:outline-none"
-                                    placeholder="Your fullname..."
-                                    value="Angga React"
-                                /> */}
                                     <TextInput
                                         type="text"
                                         name="fullname"
@@ -52,13 +45,6 @@ export default function Register() {
                                         forInput="email"
                                         value="Email Address"
                                     />
-                                    {/* <input
-                                    type="email"
-                                    name="email"
-                                    className="rounded-2xl bg-form-bg py-[13px] px-7 w-full focus:outline-alerange focus:outline-none"
-                                    placeholder="Your Email Address"
-                                    value="anggaforreact@fb.com"
-                                /> */}
                                     <TextInput
                                         type="email"
                                         name="email"
@@ -70,13 +56,6 @@ export default function Register() {
                                         forInput="password"
                                         value="Password"
                                     />
-                                    {/* <input
-                                    type="password"
-                                    name="password"
-                                    className="rounded-2xl bg-form-bg py-[13px] px-7 w-full focus:outline-alerange focus:outline-none"
-                                    placeholder="Your Password"
-                                    value="eeeeeeeeeeeeeee"
-                                /> */}
                                     <TextInput
                                         type="password"
                                         name="password"
@@ -85,7 +64,7 @@ export default function Register() {
                                 </div>
                             </div>
                             <div className="grid space-y-[14px] mt-[30px]">
-                                <Link href={route("prototype.login")}>
+                                <Link href={route("prototype.dashboard")}>
                                     <Button type="button" variant="primary">
                                         <span className="text-base font-semibold">
                                             Sign Up
@@ -102,11 +81,6 @@ export default function Register() {
                                         </span>
                                     </Button>
                                 </Link>
-                                {/* <!-- <button type="submit" className="rounded-2xl bg-alerange py-[13px] text-center">
-                            <span className="text-base font-semibold">
-                                Sign Up
-                            </span>
-                        </button> --> */}
                             </div>
                         </form>
                     </div>
